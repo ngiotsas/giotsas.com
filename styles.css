@@ -59,6 +59,19 @@ body {
 .sprite-twitter { width: 30px; height: 30px; background-position: -45px -45px; }
 .sprite-youtube { width: 32px; height: 32px; background-position: -85px -5px; }
 
+/* Resource sprites */
+.sprite-resources {
+    background-image: url(blog-sources.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-mdn { width: 32px; height: 10px; background-position: -5px -5px; }
+.sprite-pydocs { width: 32px; height: 10px; background-position: -5px -25px; }
+.sprite-reddit { width: 32px; height: 10px; background-position: -5px -45px; }
+.sprite-stackover { width: 32px; height: 32px; background-position: -47px -5px; }
+.sprite-w3schools { width: 32px; height: 30px; background-position: -47px -47px; }
+
 /* Header */
 header {
     background: #ffffff;
