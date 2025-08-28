@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,147 +39,37 @@
 
     <main>
         <section class="page-header">
-            <h1>Our Learning Blog</h1>
-            <p>Documenting our coding journey, one post at a time</p>
+            <h1>Our Blog</h1>
+            <p>Sharing our coding journey and experiences</p>
         </section>
 
         <section class="blog-content">
             <div class="blog-main">
-                <article class="blog-post">
-                    <div class="post-header">
-                        <div class="post-meta">
-                            <span class="post-date">March 20, 2024</span>
-                            <span class="post-category">Web Dev</span>
-                        </div>
-                        <h2>Why We Used CSS Sprites in 2024</h2>
-                    </div>
-                    <div class="post-content">
-                        <p>When building this website, we had to decide how to handle our icons. Everyone talks about SVGs and icon fonts, but we went with CSS sprites. Here's why.</p>
-                        
-                        <h3>The Decision</h3>
-                        <p>As beginners, we wanted to understand the fundamentals before jumping to modern solutions. CSS sprites taught us about background positioning, image optimization, and how browsers handle resources.</p>
-                        
-                        <h3>What We Learned</h3>
-                        <p>Creating our sprite sheets manually taught us about:</p>
-                        <ul>
-                            <li>Image compression and optimization</li>
-                            <li>CSS background positioning</li>
-                            <li>Browser caching strategies</li>
-                            <li>HTTP request reduction</li>
-                        </ul>
-                        
-                        <p>Sure, it's more work than using an icon library, but we understand exactly how our icons work and why they're efficient.</p>
-                    </div>
-                </article>
-
-                <article class="blog-post">
-                    <div class="post-header">
-                        <div class="post-meta">
-                            <span class="post-date">March 15, 2024</span>
-                            <span class="post-category">Python</span>
-                        </div>
-                        <h2>Our First Month with Python</h2>
-                    </div>
-                    <div class="post-content">
-                        <p>A month ago, we started learning Python. Here's an honest look at what we've learned, what confused us, and what finally clicked.</p>
-                        
-                        <h3>Week 1: Hello World and Variables</h3>
-                        <p>Python's syntax felt weird coming from other languages. No semicolons? Indentation matters? But after a few days, we started appreciating how clean it looks.</p>
-                        
-                        <h3>Week 2: Functions and Loops</h3>
-                        <p>This is where things got interesting. Python's for loops are so much cleaner than other languages. The range() function confused us at first, but now we use it constantly.</p>
-                        
-                        <h3>Week 3: File Handling</h3>
-                        <p>Built our file organizer script this week. First time working with actual files in Python. The with statement for file handling is brilliant once you understand it.</p>
-                        
-                        <h3>Week 4: Libraries and Modules</h3>
-                        <p>Started exploring the Python Standard Library. So many useful modules! Currently playing with datetime, os, and shutil for our automation scripts.</p>
-                    </div>
-                </article>
-
-                <article class="blog-post">
-                    <div class="post-header">
-                        <div class="post-meta">
-                            <span class="post-date">March 10, 2024</span>
-                            <span class="post-category">Learning</span>
-                        </div>
-                        <h2>Building This Website: What We Learned</h2>
-                    </div>
-                    <div class="post-content">
-                        <p>Creating giotsas.com was our biggest web development project yet. Here's what we learned during the process.</p>
-                        
-                        <h3>Planning Phase</h3>
-                        <p>We started by sketching layouts on paper. Wanted something that looked professional but reflected our personality as learners, not experts.</p>
-                        
-                        <h3>HTML Structure</h3>
-                        <p>Focused on semantic HTML from the start. Used proper heading hierarchy, meaningful class names, and structured content logically.</p>
-                        
-                        <h3>CSS Challenges</h3>
-                        <p>Getting the sprite positioning right took forever. Also learned about CSS Grid the hard way - lots of trial and error with grid-template-areas.</p>
-                        
-                        <h3>JavaScript Additions</h3>
-                        <p>Added search functionality and form handling. First time working with DOM manipulation extensively. The search feature was particularly challenging.</p>
-                        
-                        <h3>What We'd Do Differently</h3>
-                        <p>Next time we'd start with mobile-first design. We built desktop-first and had to rework several media queries. Also would have planned our CSS better - some of our styles got messy.</p>
-                    </div>
-                </article>
-
-                <article class="blog-post">
-                    <div class="post-header">
-                        <div class="post-meta">
-                            <span class="post-date">March 5, 2024</span>
-                            <span class="post-category">Tools</span>
-                        </div>
-                        <h2>Our Development Setup</h2>
-                    </div>
-                    <div class="post-content">
-                        <p>People always ask what tools we use for coding. Here's our current setup as beginner developers.</p>
-                        
-                        <h3>Code Editor</h3>
-                        <p>VS Code with Python and HTML extensions. The integrated terminal is incredibly useful, and the syntax highlighting helps catch errors early.</p>
-                        
-                        <h3>Browser Testing</h3>
-                        <p>Chrome for development (DevTools are amazing), but we test in Firefox and Safari too. Mobile testing mostly on Chrome's device simulation.</p>
-                        
-                        <h3>Version Control</h3>
-                        <p>Git and GitHub. Still learning proper commit messages and branching, but we backup everything now after losing code once.</p>
-                        
-                        <h3>Learning Resources</h3>
-                        <p>MDN for web development reference, Python.org docs for Python, Stack Overflow when we're stuck, and YouTube for visual explanations.</p>
-                    </div>
-                </article>
+                <!-- Blog posts will be inserted here by Python script -->
+                <div class="empty-blog">
+                    <div class="sprite sprite-blue-box" style="margin: 0 auto 2rem; width: 64px; height: 64px; background-size: contain;"></div>
+                    <h2>Coming Soon</h2>
+                    <p>We're preparing to share our coding experiences, project insights, and learning journey. Check back soon for our first posts!</p>
+                </div>
             </div>
 
             <aside class="blog-sidebar">
                 <div class="sidebar-section">
-                    <h3>Recent Posts</h3>
-                    <ul class="recent-posts">
-                        <li><a href="#css-sprites">Why We Used CSS Sprites in 2024</a></li>
-                        <li><a href="#python-month">Our First Month with Python</a></li>
-                        <li><a href="#building-website">Building This Website</a></li>
-                        <li><a href="#dev-setup">Our Development Setup</a></li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-section">
                     <h3>Categories</h3>
                     <ul class="categories">
-                        <li><a href="#">Web Dev <span>(2)</span></a></li>
-                        <li><a href="#">Python <span>(1)</span></a></li>
-                        <li><a href="#">Learning <span>(1)</span></a></li>
-                        <li><a href="#">Tools <span>(1)</span></a></li>
+                        <!-- Categories will be populated by Python script -->
                     </ul>
                 </div>
 
                 <div class="sidebar-section">
-                    <h3>Learning Resources</h3>
-                    <p>Resources that have helped us:</p>
+                    <h3>Useful Resources</h3>
+                    <p>Resources we find helpful:</p>
                     <ul>
-                        <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
-                        <li><a href="https://docs.python.org" target="_blank">Python Documentation</a></li>
-                        <li><a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a></li>
-                        <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+                        <li><div class="sprite-resources sprite-mdn"></div><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+                        <li><div class="sprite-resources sprite-pydocs"></div><a href="https://docs.python.org" target="_blank">Python Docs</a></li>
+                        <li><div class="sprite-resources sprite-w3schools"></div><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+                        <li><div class="sprite-resources sprite-stackover"></div><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a></li>
+                        <li><div class="sprite-resources sprite-reddit"></div><a href="https://reddit.com/r/learnpython" target="_blank">Reddit r/learnpython</a></li>
                     </ul>
                 </div>
             </aside>
